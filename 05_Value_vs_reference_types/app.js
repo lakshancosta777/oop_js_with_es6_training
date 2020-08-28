@@ -19,7 +19,7 @@
 
 // First we consider about primitives
 let px = 10;
-let py = x;
+let py = px;
 
 px = 20;
 
@@ -37,9 +37,9 @@ console.log(py); // 10
 let ox = { value: 10 };
 let oy = ox;
 
-x.value = 20;
+ox.value = 20;
 
-onsole.log(ox.value); // 20
+console.log(ox.value); // 20
 console.log(oy.value); // 20
 
 /**
