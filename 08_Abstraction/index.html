@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abstraction</title>
+    <style>
+      .box-container {
+        width: auto;
+      }
+      .products {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        float: left;
+        opacity: 0.6;
+        transition: 0.3s;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      .products:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Abstraction</h1>
+    <h5>Open Developer Tools</h5>
+    <hr />
+    <button class="btn" id="lakshan">Lakshan</button>
+    <button class="btn" id="ruvinda">Ruvinda</button>
+    <button class="btn" id="costa">Costa</button>
+    <div class="box-container" id="box-container">
+      <div class="products" id="product1"></div>
+      <div class="products" id="product2"></div>
+      <div class="products" id="product3"></div>
+      <div class="products" id="product4"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
