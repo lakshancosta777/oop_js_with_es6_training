@@ -50,7 +50,7 @@ function createCircle(radius) {
 const circleF = createCircle(1);
 circleF.draw();
 
-// ==================== Solution Twp - Constructor Function ========================
+// ==================== Solution Two - Constructor Function ========================
 
 /**
  * Once we use new operator few things happen behind
